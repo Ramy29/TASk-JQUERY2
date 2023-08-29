@@ -1,0 +1,121 @@
+.home {
+    text-align: center;
+    background-image: url(./images/underground-concert.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.data {
+    height: 100vh;
+    background-color: tomato;
+    opacity: 0.6;
+}
+.data h1{ 
+   padding-top: 300px;
+   color: antiquewhite;
+   font-weight: 900;
+   font-size: 64px;
+}
+.data h6 {
+    color: antiquewhite;
+    font-weight: 400;
+    font-size: x-large;
+}
+.settings {
+    top: 0;
+    left: 0;
+    height: 100vh;
+   
+    position: absolute;
+    display: flex;
+    z-index: 9999;  
+}
+.settings h3 {
+    padding: 30px;
+    color: azure;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.settings .open {
+    display: none;
+    background-color: black;
+}
+.settings h3:hover{
+   background-color: brown;
+}
+.sigth {
+opacity: 0.8;
+padding: 10px;
+cursor: pointer;
+padding-top: 250px;
+}
+.contact {
+    height: 100vh;
+    background-color: beige;
+}
+.container {
+    padding-top: 40px;
+    padding-left: 80px;
+}
+.container h2,.container h3 {
+    font-weight: 700;
+    padding-top: 40px;
+}
+.contact-ways {
+    padding-left: 70px;
+}
+.allinputs {
+    margin-top: 150px;
+}
+textarea {
+    border: none;
+}
+.icons :hover {
+    background-color: aquamarine;
+}
+.singer {
+    text-align: center;
+    padding-top: 50px;
+    height: 90vh;
+    cursor: pointer;
+}
+#lorem1,#lorem2,#lorem3,#lorem4{
+    display: none;
+}
+.singer1 ,.singer2,.singer3,.singer4 {
+    padding: 15px;
+    width: 50%;
+    margin-left: 260px;
+}
+.time {
+    height: 40vh;
+    background-image: url(./images/contact-us-iphone.jpg);
+    background-size: cover;
+}
+.date {
+    background-color: tomato;
+    opacity: 0.6;
+    height: 40vh;
+}
+.col-3{
+    border: 1px solid white;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.date {
+    display: flex;
+   
+}
+.days,.hours,.minutes {
+    padding: 80px 150px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 32px;
+     color: blueviolet;
+}
+.spann {
+    color: crimson;
+}
+.textarea {
+    maxle
+}
